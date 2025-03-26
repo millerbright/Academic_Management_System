@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/d8d23546-281d-4222-a6df-b62e4a220a00)# **Academic Management System - Hệ thống quản lý học thuật - LMS**
+
+# **Academic Management System - Hệ thống quản lý học thuật - LMS**
 
 ## 📌 **Introduction**
 
@@ -7,6 +8,8 @@
 🎓 In the lecturer login sessions, users have the right to access and manage student information. Lecturers can also manage their personal information, degrees, and expertise. The software provides lecturers with the ability to update course content and support student competency assessment through quizzes.
 
 🎓 With the student login function, users can manage their personal information. Furthermore, they have access to their academic progress and grades. The software also enables students to register for or withdraw from courses. To ensure data security, the system only allows users to view their own personal information and grades, preventing access to other students' data.
+
+![image](https://github.com/user-attachments/assets/d8d23546-281d-4222-a6df-b62e4a220a00)
 
 ## 🛠️ **Technologies Used**
 
