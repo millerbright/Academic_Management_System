@@ -93,7 +93,155 @@ The frontend consists of the graphical user interface (GUI) that users interact 
   - Stores CSS, JavaScript, images, and other design-related files.
   - Enhances the visual appearance and user interactions (fonts, navigation menus, buttons, images, graphs).
 This detailed structure ensures that the academic management system is well-organized and functional, providing secure and efficient interactions between students, lecturers, and the institution.
+
+## 📌**Class Diagram** 
+<img src="assets/Classdiagram.png" alt="ClassDiagram" width="600">
+
+## 📌**Software Features - Các tính năng của phần mềm**
+**1. Login:**
+On the login interface, users are provided with two options: Lecturer Login and Student Login.
+<img src="assets/hinh1.png" alt="hinh1" width="600">
+Figure 1: Login Options
+
+For both options, users are provided with the corresponding interface to enter their email and password.
+<img src="assets/hinh2.png" alt="hinh2" width="600">
+Figure 2: Login Page for Each Role
+
+Note: Each email corresponds to a specific account type. Users cannot use a lecturer’s email to log in as a student or vice versa.
+
+The system also provides users with a logout feature.
+<img src="assets/hinh3.png" alt="hinh3" width="600">
+Figure 3: Logout Option
+
+Below are two sample accounts for lecturers and students to test the system's features:
+- Lecturer Account:
+  - Email: giangvien@hcmut.edu.vn
+  - Password: gv@2111
+- Student Account:
+  - Email: sinhvien@hcmut.edu.vn
+  - Password: sv@2213089
+
+**2. Features for Lecturers:**
+On the homepage of the lecturer login session, when users hover over the "Lecturer Information" section, several options appear. Clicking on any option will redirect the user to the corresponding web page.
+<img src="assets/hinh4.png" alt="hinh4" width="600">
+Figure 4: Available Options for Lecturers
+- Lecturer Information:
+  - Clicking on "Lecturer Information" in Figure 4 redirects users to a webpage displaying information about lecturers currently teaching at the university.
+<img src="assets/hinh5.png" alt="hinh5" width="600">
+Figure 5: Lecturer Information Page
+
+- Personal Information:
+  - Clicking on "Personal Information" in Figure 4 redirects users to a webpage containing their personal details.
+<img src="assets/hinh6.png" alt="hinh6" width="600">
+Figure 6: Lecturer's Personal Information Page
+
+  - Users can edit their personal information by clicking on "Edit Information," which will open a popup window.
+<img src="assets/hinh7.png" alt="hinh7" width="600">
+Figure 7: Edit Personal Information
+
+  - Here, users can fill in the required fields and click "Save" to update their personal details.
+
+- Teaching Schedule:
+  - Clicking on "Teaching Schedule" in Figure 4 will display the lecturer's teaching schedule.
+<img src="assets/hinh8.png" alt="hinh8" width="600">
+Figure 8: Teaching Schedule Page
+  - Users can adjust the viewing mode using the buttons highlighted in red below.
+<img src="assets/hinh9.png" alt="hinh9" width="600">
+Figure 9: Viewing Mode Adjustment Buttons
+
+- Class List:
+  - Clicking on "Class List" in Figure 4 redirects users to a webpage displaying the courses they are teaching.
+<img src="assets/hinh10.png" alt="hinh10" width="600">
+Figure 10: List of Courses Being Taught
+
+  - Here, users can click on "CLASS LIST" to view the list of students in a specific course.
+<img src="assets/hinh11.png" alt="hinh11" width="600">
+Figure 11: Student List and Evaluation
+
+  - In the student list, users can evaluate students' scores by clicking on "Evaluate" next to a student's name.
+
+  - In Figure 10, users can click on "EDIT COURSE" for the respective course.
+<img src="assets/hinh12.png" alt="hinh12" width="600">
+Figure 12: Course Management Interface
+
+  - In this section, users will see the course interface for the selected course. Scrolling down, they will find three key sections that allow them to modify course content.
+<img src="assets/hinh13.png" alt="hinh13" width="600">
+Figure 13: Editable Sections
+
+  - Users can upload lecture slides and reference materials by selecting appropriate files and clicking "Update." Additionally, users can create quizzes in the "Quiz Test" section.
+
+**3. Features for Students:**
+<img src="assets/hinh14.png" alt="hinh14" width="600">
+Figure 14: Student Login Homepage
+
+- Lecturer Information:
+  - Similar to the lecturer login session, clicking on "Lecturer Information" will redirect the user to the webpage shown in Figure 5.
+
+- Student Information:
+  - On the student login homepage, hovering over "Student Information" reveals several options.
+<img src="assets/hinh15.png" alt="hinh15" width="600">
+Figure 15: Student Information Options
+
+  - Clicking on "Personal Information" redirects users to a new webpage.
+<img src="assets/hinh16.png" alt="hinh16" width="600">
+Figure 16: Student's Personal Information Page
+
+  - Here, users can review and edit their personal information.
+<img src="assets/hinh17.png" alt="hinh17" width="600">
+Figure 17: Edit Student Personal Information
+
+  - Additionally, students can click on "Learning Progress" and "Grades" to track their academic progress and scores.
+<img src="assets/hinh18.png" alt="hinh18" width="600">
+Figure 18: Learning Progress Statistics
+<img src="assets/hinh19.png" alt="hinh19" width="600">
+Figure 19: Course Grades
+
+- My Courses:
+  - When users hover over "My Courses," several options appear.
+<img src="assets/hinh20.png" alt="hinh20" width="600">
+Figure 20: My Courses Options
+  - Clicking on "Course List" redirects users to a webpage containing the list of enrolled courses.
+<img src="assets/hinh21.png" alt="hinh21" width="600">
+Figure 21: Enrolled Course List
+
+  - The webpage also provides a tool for quickly searching for courses. Additionally, scrolling down reveals a control panel that allows users to register or drop courses. Users can refer to Figure 10 for available courses.
+<img src="assets/hinh22.png" alt="hinh22" width="600">
+Figure 22: Course Management Panel
+
+  - Similar to the lecturer login session, clicking on "Course Details" in Figure 21 redirects users to the corresponding course interface.
+<img src="assets/hinh23.png" alt="hinh23" width="600">
+Figure 23: Course Interface
+
+  - However, unlike the lecturer login session, students cannot modify the three sections: "Lecture Slides," "Reference Materials," and "Quiz Tests."
+<img src="assets/hinh24.png" alt="hinh24" width="600">
+Figure 24: Study Materials and Quizzes for Students
+
+  - Furthermore, users can click on "Class List" or "Progress Scores" in Figure 23 to view the list of students enrolled in the class and their own scores. Unlike lecturers, students cannot evaluate the learning progress of other students.
+<img src="assets/hinh25.png" alt="hinh25" width="600">
+Figure 25: Class List and Personal Scores
+
+
+## 📌**Software Execution Guide - Hướng dẫn chạy phần mềm**
+- Step 1: Open two IDE windows to run the application. In the first IDE window, open the backend folder.
+<img src="assets/hd1.png" alt="hd1" width="600">
+
+- Step 2: Locate the file "BackendApplication.java".
+<img src="assets/hd2.png" alt="hd2" width="600">
+
+- Step 3: Right-click on the file and select Run Java (or an equivalent function if using a different IDE) and wait for it to run successfully.
+<img src="assets/hd3.png" alt="hd3" width="600">
+<img src="assets/hd4.png" alt="hd4" width="600">
+
+- Step 4: In the second IDE window, open the fe folder. (From this step onward, instructions are specifically for VS Code users. If you use a different IDE, find the appropriate way to run the frontend.)
+🔹 Note: Make sure to install the Live Server extension.
+<img src="assets/hd5.png" alt="hd5" width="600">
+
+- Step 5: Locate the index.html file. Then, right-click on the code inside the file and select Open with Live Server to launch the system's homepage.
+<img src="assets/hd6.png" alt="hd6" width="600">
+
+
 ## 🏆 Contributors
+This project was successfully developed thanks to the dedication and effort of the following contributors:
 1. Võ Quang Đại Việt - 2213954
 2. Nguyễn Đình Đức - 2210794
 3. Nguyễn Duy Vũ - 2213997
@@ -102,5 +250,5 @@ This detailed structure ensures that the academic management system is well-orga
 6. Khúc Minh Trí - 2213636
 7. Nguyễn Quang Sáng - 2212922
 
-
+🎉🎉🎉 Thank you for checking out this project! 🚀
 
