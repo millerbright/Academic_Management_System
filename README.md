@@ -1,5 +1,5 @@
 
-# **Academic Management System - Hệ thống quản lý học thuật - LMS**
+# **Academic Learning Management System - Hệ thống quản lý học thuật - LMS**
 
 ## 📌 **Introduction**
 
