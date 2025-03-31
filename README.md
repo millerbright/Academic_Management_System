@@ -1,7 +1,18 @@
 
 # **Academic Learning Management System - Hệ thống quản lý học thuật - LMS**
 
-## 📌 **Introduction**
+## Table of content
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Source code](#source-code)
+- [Video Introduction](#video-introduction)
+- [Software Design - Thiết kế phần mềm](#software-design---thiết-kế-phần-mềm)
+- [Class Diagram](#class-diagram)
+- [Software Features - Các tính năng của phần mềm](#software-features---các-tính-năng-của-phần-mềm)
+- [Software Execution Guide - Hướng dẫn chạy phần mềm](#software-execution-guide---hướng-dẫn-chạy-phần-mềm)
+- [Contributors](#contributors)
+
+## 📌**Introduction**
 
 🎓 With the aim of creating a high-quality learning environment alongside the development of information technology, a software system has been designed to serve as a comprehensive academic management platform. This software provides a variety of conveniences for students and teachers while also acting as an effective interaction platform between students, teachers, and the school. With separate login functions for lecturers and students, the system ensures data security and easy access to necessary information. Additionally, the software offers a user-friendly interface that is easy for everyone to use.
 
@@ -11,7 +22,7 @@
 
 ![image](https://github.com/user-attachments/assets/d8d23546-281d-4222-a6df-b62e4a220a00)
 
-## 🛠️ **Technologies Used**
+## 🛠**Technologies Used**
 
 🔧 Frontend: HTML, CSS, JavaScript
 
@@ -21,12 +32,12 @@
 
 🔧 Security: Spring Security, JWT Authentication
 
-## 🚀 **Source code:**
+## 🚀**Source code:**
 The source code of the software can be accessed via the following link:
 
 🔗 [Academic Management System](https://github.com/NguyenVu04/BTL.git)
 
-## 📺 **Video Introduction:**
+## 📺**Video Introduction:**
 Product introduction video:
 
 🔗 [Academic Management System](https://youtu.be/HpA0xAE15ZE?si=Bu4EhRuMUR9bwU4F)
@@ -280,15 +291,15 @@ On the homepage of the lecturer login session, when users hover over the "Lectur
 <p align="center"><img src="assets/hd6.png" alt="hd6" width="600"></p>
 
 
-## 🏆 Contributors
+## 🏆**Contributors**
 This project was successfully developed thanks to the dedication and effort of the following contributors:
 1. Võ Quang Đại Việt - 2213954
 2. Nguyễn Đình Đức - 2210794
-3. Nguyễn Duy Vũ - 2213997
-4. Trần Huy Đức - 2210812
-5. Chế Minh Đức - 2210783
-6. Khúc Minh Trí - 2213636
-7. Nguyễn Quang Sáng - 2212922
+3. Nguyễn Quang Sáng - 2212922
+4. Nguyễn Duy Vũ - 2213997
+5. Trần Huy Đức - 2210812
+6. Chế Minh Đức - 2210783
+7. Khúc Minh Trí - 2213636
 
 🎉🎉🎉 Thank you for checking out this project! 🚀
 
